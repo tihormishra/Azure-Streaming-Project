@@ -184,10 +184,13 @@
 												"parameters": {
 													"container": "bronze-raw",
 													"folder": {
-														"value": "@pipeline().parameters.table_name",
+														"value": "@{item().table_name}_cdc",
 														"type": "Expression"
 													},
-													"file_name": "@concat(pipeline().parameters.table_name,'_',variables('current'))"
+													"file_name": {
+														"value": "@concat(item().table_name,'_',variables('current'))",
+														"type": "Expression"
+													}
 												}
 											},
 											"enableLogging": false,
