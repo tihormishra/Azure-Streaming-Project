@@ -1,0 +1,15 @@
+{
+	"name": "anshstreamingproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "30b7a0e7-3a77-45db-a07c-8e9364cb756d",
+		"tenantId": "81c2ecd0-31cc-4abd-a0c9-f2b5aa7e3bc3"
+	}
+}
