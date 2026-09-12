@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "anshstreamingproject"
+		},
+		"ADLS_sink_ls_accountKey": {
+			"value": ""
+		},
+		"azure_sql_source_ls_password": {
+			"value": ""
+		},
+		"ADLS_sink_ls_properties_typeProperties_url": {
+			"value": "https://anshstreamingproject.dfs.core.windows.net/"
+		},
+		"azure_sql_source_ls_properties_typeProperties_server": {
+			"value": "streamingprojectserver.database.windows.net"
+		},
+		"azure_sql_source_ls_properties_typeProperties_database": {
+			"value": "streamingprojectdb"
+		},
+		"azure_sql_source_ls_properties_typeProperties_userName": {
+			"value": "stream-rohit"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
