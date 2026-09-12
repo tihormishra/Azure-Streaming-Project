@@ -122,7 +122,7 @@
 									"parameters": {
 										"container": "bronze-raw",
 										"folder": {
-											"value": "@{input().table}_cdc",
+											"value": "@{item().table_name}_cdc",
 											"type": "Expression"
 										},
 										"file_name": "data_cdc.json"
